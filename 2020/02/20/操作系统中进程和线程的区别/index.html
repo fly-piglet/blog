@@ -40,7 +40,7 @@
 
   
   
-  <link href="/bolg/lib/fancybox/source/jquery.fancybox.css?v=2.1.5" rel="stylesheet" type="text/css" />
+  <link href="/blog/lib/fancybox/source/jquery.fancybox.css?v=2.1.5" rel="stylesheet" type="text/css" />
 
 
 
@@ -48,21 +48,21 @@
 
 
 
-<link href="/bolg/lib/font-awesome/css/font-awesome.min.css?v=4.6.2" rel="stylesheet" type="text/css" />
+<link href="/blog/lib/font-awesome/css/font-awesome.min.css?v=4.6.2" rel="stylesheet" type="text/css" />
 
-<link href="/bolg/css/main.css?v=5.1.4" rel="stylesheet" type="text/css" />
-
-
-  <link rel="apple-touch-icon" sizes="180x180" href="/bolg/images/apple-touch-icon-next.png?v=5.1.4">
+<link href="/blog/css/main.css?v=5.1.4" rel="stylesheet" type="text/css" />
 
 
-  <link rel="icon" type="image/png" sizes="32x32" href="/bolg/images/favicon-32x32-next.png?v=5.1.4">
+  <link rel="apple-touch-icon" sizes="180x180" href="/blog/images/apple-touch-icon-next.png?v=5.1.4">
 
 
-  <link rel="icon" type="image/png" sizes="16x16" href="/bolg/images/favicon-16x16-next.png?v=5.1.4">
+  <link rel="icon" type="image/png" sizes="32x32" href="/blog/images/favicon-32x32-next.png?v=5.1.4">
 
 
-  <link rel="mask-icon" href="/bolg/images/logo.svg?v=5.1.4" color="#222">
+  <link rel="icon" type="image/png" sizes="16x16" href="/blog/images/favicon-16x16-next.png?v=5.1.4">
+
+
+  <link rel="mask-icon" href="/blog/images/logo.svg?v=5.1.4" color="#222">
 
 
 
@@ -86,8 +86,8 @@
 <meta property="og:site_name" content="Hikariの技术博客">
 <meta property="og:description" content="为什么计算机要设计进程和线程在理解这些概念之前首选要对并发有一定的感性认识，如果服务器同一时间内只能服务于一个客户端，其他客户端都再那里傻等的话，可见其性能的低下估计会被客户骂出翔来，因此并发编程应运而生，并发是网络编程中必须考虑的问题。实现并发的方式有多种：比如多进程、多线程、IO多路复用。 为什么可以并发提高CPU使用效率呢交给计算机的任务，大致上可以分为两类：I&#x2F;O密集型任务和CPU密集型任">
 <meta property="og:locale" content="en_US">
-<meta property="article:published_time" content="2020-02-20T16:36:16.992Z">
-<meta property="article:modified_time" content="2020-02-20T16:36:16.992Z">
+<meta property="article:published_time" content="2020-02-20T16:38:27.691Z">
+<meta property="article:modified_time" content="2020-02-20T16:38:27.691Z">
 <meta property="article:author" content="Hikari">
 <meta property="article:tag" content="java">
 <meta name="twitter:card" content="summary">
@@ -97,7 +97,7 @@
 <script type="text/javascript" id="hexo.configurations">
   var NexT = window.NexT || {};
   var CONFIG = {
-    root: '/bolg/',
+    root: '/blog/',
     scheme: 'Muse',
     version: '5.1.4',
     sidebar: {"position":"left","display":"post","offset":12,"b2t":false,"scrollpercent":false,"onmobile":false},
@@ -154,7 +154,7 @@
     
 
     <div class="custom-logo-site-title">
-      <a href="/bolg/"  class="brand" rel="start">
+      <a href="/blog/"  class="brand" rel="start">
         <span class="logo-line-before"><i></i></span>
         <span class="site-title">Hikariの技术博客</span>
         <span class="logo-line-after"><i></i></span>
@@ -182,7 +182,7 @@
       
         
         <li class="menu-item menu-item-home">
-          <a href="/bolg/" rel="section">
+          <a href="/blog/" rel="section">
             
               <i class="menu-item-icon fa fa-fw fa-home"></i> <br />
             
@@ -192,7 +192,7 @@
       
         
         <li class="menu-item menu-item-archives">
-          <a href="/bolg/archives/" rel="section">
+          <a href="/blog/archives/" rel="section">
             
               <i class="menu-item-icon fa fa-fw fa-archive"></i> <br />
             
@@ -233,12 +233,12 @@
   
   
   <div class="post-block">
-    <link itemprop="mainEntityOfPage" href="https://fly-piglet.github.io/bolg/2020/02/20/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F%E4%B8%AD%E8%BF%9B%E7%A8%8B%E5%92%8C%E7%BA%BF%E7%A8%8B%E7%9A%84%E5%8C%BA%E5%88%AB/">
+    <link itemprop="mainEntityOfPage" href="https://fly-piglet.github.io/blog/2020/02/20/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F%E4%B8%AD%E8%BF%9B%E7%A8%8B%E5%92%8C%E7%BA%BF%E7%A8%8B%E7%9A%84%E5%8C%BA%E5%88%AB/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="name" content="Hikari">
       <meta itemprop="description" content="">
-      <meta itemprop="image" content="/bolg/images/avatar.gif">
+      <meta itemprop="image" content="/blog/images/avatar.gif">
     </span>
 
     <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
@@ -262,7 +262,7 @@
               
                 <span class="post-meta-item-text">Posted on</span>
               
-              <time title="Post created" itemprop="dateCreated datePublished" datetime="2020-02-20T16:36:16+00:00">
+              <time title="Post created" itemprop="dateCreated datePublished" datetime="2020-02-20T16:38:27+00:00">
                 2020-02-21
               </time>
             
@@ -355,7 +355,7 @@
 
           <div class="post-nav-prev post-nav-item">
             
-              <a href="/bolg/2020/02/20/%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA%E9%97%AE%E9%A2%98%E8%AE%B0%E5%BD%95/" rel="prev" title="博客搭建问题记录">
+              <a href="/blog/2020/02/20/%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA%E9%97%AE%E9%A2%98%E8%AE%B0%E5%BD%95/" rel="prev" title="博客搭建问题记录">
                 博客搭建问题记录 <i class="fa fa-chevron-right"></i>
               </a>
             
@@ -432,7 +432,7 @@
             
               <div class="site-state-item site-state-posts">
               
-                <a href="/bolg/archives/%7C%7C%20archive">
+                <a href="/blog/archives/%7C%7C%20archive">
               
                   <span class="site-state-item-count">2</span>
                   <span class="site-state-item-name">posts</span>
@@ -568,57 +568,57 @@
 
   
   
-    <script type="text/javascript" src="/bolg/lib/jquery/index.js?v=2.1.3"></script>
+    <script type="text/javascript" src="/blog/lib/jquery/index.js?v=2.1.3"></script>
   
 
   
   
-    <script type="text/javascript" src="/bolg/lib/fastclick/lib/fastclick.min.js?v=1.0.6"></script>
+    <script type="text/javascript" src="/blog/lib/fastclick/lib/fastclick.min.js?v=1.0.6"></script>
   
 
   
   
-    <script type="text/javascript" src="/bolg/lib/jquery_lazyload/jquery.lazyload.js?v=1.9.7"></script>
+    <script type="text/javascript" src="/blog/lib/jquery_lazyload/jquery.lazyload.js?v=1.9.7"></script>
   
 
   
   
-    <script type="text/javascript" src="/bolg/lib/velocity/velocity.min.js?v=1.2.1"></script>
+    <script type="text/javascript" src="/blog/lib/velocity/velocity.min.js?v=1.2.1"></script>
   
 
   
   
-    <script type="text/javascript" src="/bolg/lib/velocity/velocity.ui.min.js?v=1.2.1"></script>
+    <script type="text/javascript" src="/blog/lib/velocity/velocity.ui.min.js?v=1.2.1"></script>
   
 
   
   
-    <script type="text/javascript" src="/bolg/lib/fancybox/source/jquery.fancybox.pack.js?v=2.1.5"></script>
+    <script type="text/javascript" src="/blog/lib/fancybox/source/jquery.fancybox.pack.js?v=2.1.5"></script>
   
-
-
-  
-
-
-  <script type="text/javascript" src="/bolg/js/src/utils.js?v=5.1.4"></script>
-
-  <script type="text/javascript" src="/bolg/js/src/motion.js?v=5.1.4"></script>
-
-
-
-  
-  
-
-  
-  <script type="text/javascript" src="/bolg/js/src/scrollspy.js?v=5.1.4"></script>
-<script type="text/javascript" src="/bolg/js/src/post-details.js?v=5.1.4"></script>
-
 
 
   
 
 
-  <script type="text/javascript" src="/bolg/js/src/bootstrap.js?v=5.1.4"></script>
+  <script type="text/javascript" src="/blog/js/src/utils.js?v=5.1.4"></script>
+
+  <script type="text/javascript" src="/blog/js/src/motion.js?v=5.1.4"></script>
+
+
+
+  
+  
+
+  
+  <script type="text/javascript" src="/blog/js/src/scrollspy.js?v=5.1.4"></script>
+<script type="text/javascript" src="/blog/js/src/post-details.js?v=5.1.4"></script>
+
+
+
+  
+
+
+  <script type="text/javascript" src="/blog/js/src/bootstrap.js?v=5.1.4"></script>
 
 
 
